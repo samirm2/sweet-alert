@@ -59,7 +59,7 @@ class SweetAlertNotifier
         $this->config['text'] = $text;
         $this->config['title'] = $title;
 
-        if (!is_null($type)) {
+        if (!is_null($icon)) {
             $this->config['icon'] = $icon;
         }
 
